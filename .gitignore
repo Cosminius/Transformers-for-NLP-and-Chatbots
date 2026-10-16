@@ -223,3 +223,10 @@ my_bert
 models
 my_gpt2_sft_alpaca
 my_gpt2_sft_alpaca_dpo_hh_rlhf
+
+# Keep only notebooks, README, LICENSE
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/*.ipynb
